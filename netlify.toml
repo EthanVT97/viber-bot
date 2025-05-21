@@ -1,0 +1,7 @@
+[build]
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/viber-webhook"
+  to = "/.netlify/functions/viber-webhook"
+  status = 200
